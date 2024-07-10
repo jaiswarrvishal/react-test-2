@@ -45,3 +45,19 @@
   justify-content: space-around;
   flex-wrap: nowrap;
 }
+
+div{
+  text-align: center;
+}
+button{
+  padding: 8px 20px;
+  background-color: lightcoral;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  background-color: black;
+}
