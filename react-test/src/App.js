@@ -8,6 +8,8 @@ import Test2 from './component/Test2';
 import Toggled from './component/Toggled';
 import Counter from './component/Counter';
 import Test3 from './component/Test3';
+import UseEffect from './component/UseEffect';
+import UseEffect3 from './component/UseEffect3';
 
 
 function App() {
@@ -20,6 +22,9 @@ function App() {
       <Route path="/toggled" element = { <Toggled />}/>
       <Route path="/counter" element = { <Counter />}/>
       <Route path="/test3" element = { <Test3 />}/>
+      <Route path="/use-effect" element = { <UseEffect />}/>
+      <Route path="/use-effect-3" element = { <UseEffect3 />}/>
+
     </Routes>
   );
 }
