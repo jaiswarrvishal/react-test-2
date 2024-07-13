@@ -10,6 +10,9 @@ import Counter from './component/Counter';
 import Test3 from './component/Test3';
 import UseEffect from './component/UseEffect';
 import UseEffect3 from './component/UseEffect3';
+import UseEffect4 from './component/UseEffect4';
+import Test from './component/Test';
+import MultipleDepen from './component/MultipleDepen';
 
 
 function App() {
@@ -24,6 +27,9 @@ function App() {
       <Route path="/test3" element = { <Test3 />}/>
       <Route path="/use-effect" element = { <UseEffect />}/>
       <Route path="/use-effect-3" element = { <UseEffect3 />}/>
+      <Route path="/use-effect-4" element = { <UseEffect4 />}/>
+      <Route path="/test" element = { <Test />}/>
+      <Route path="/multiple-dependency" element = { <MultipleDepen />}/>
 
     </Routes>
   );
