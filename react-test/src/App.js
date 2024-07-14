@@ -13,11 +13,14 @@ import UseEffect3 from './component/UseEffect3';
 import UseEffect4 from './component/UseEffect4';
 import Test from './component/Test';
 import MultipleDepen from './component/MultipleDepen';
+import Home from './usenevigate/Home';
+import Routing from './usenevigate/Routing';
 
 
 function App() {
   return (
     <Routes>
+      <Route path="/" element = { <Home />}/>
       <Route path="/movies" element = { <Movies />}/>
       <Route path="/use-state" element = { <UseState />}/>
       <Route path="/test1" element = { <Test1 />}/>
@@ -30,6 +33,7 @@ function App() {
       <Route path="/use-effect-4" element = { <UseEffect4 />}/>
       <Route path="/test" element = { <Test />}/>
       <Route path="/multiple-dependency" element = { <MultipleDepen />}/>
+      <Route path="/use-navigate" element = { <Routing />}/>
 
     </Routes>
   );
