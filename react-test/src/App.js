@@ -15,6 +15,10 @@ import Test from './component/Test';
 import MultipleDepen from './component/MultipleDepen';
 import Home from './usenevigate/Home';
 import Routing from './usenevigate/Routing';
+import Toggle from './usenevigate/Toggle';
+import User from './useparams/User';
+import Mapping from './mapping/Mapping';
+import Mappings from './mapping/Mappings';
 
 
 function App() {
@@ -34,6 +38,10 @@ function App() {
       <Route path="/test" element = { <Test />}/>
       <Route path="/multiple-dependency" element = { <MultipleDepen />}/>
       <Route path="/use-navigate" element = { <Routing />}/>
+      <Route path="/toggle" element = { <Toggle />}/>
+      <Route path="/user/:userdetails" element = { <User /> } />
+      <Route path="/mapping" element = { <Mapping students={["Thor", "Thorfinn", "Thorgill"]} />}/>
+      <Route path='/mappings' element = { <Mappings teama = {["Hisako", "Yukihira", "Erina"]} />} />
 
     </Routes>
   );
