@@ -61,3 +61,9 @@ button{
 button:hover{
   background-color: black;
 }
+
+.image{
+  background-image: url("https://blog.thomasnet.com/hubfs/shutterstock_774749455.jpg");
+  /* background-size: "cover"; */
+  background-repeat: "no-repeat";
+}

@@ -19,12 +19,14 @@ import Toggle from './usenevigate/Toggle';
 import User from './useparams/User';
 import Mapping from './mapping/Mapping';
 import Mappings from './mapping/Mappings';
+import PageNotFound from './mapping/PageNotFound';
 
 
 function App() {
   return (
     <Routes>
       <Route path="/" element = { <Home />}/>
+      <Route path="*" element = { <PageNotFound />}/>
       <Route path="/movies" element = { <Movies />}/>
       <Route path="/use-state" element = { <UseState />}/>
       <Route path="/test1" element = { <Test1 />}/>
