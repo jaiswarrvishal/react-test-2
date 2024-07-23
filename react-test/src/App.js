@@ -20,6 +20,10 @@ import User from './useparams/User';
 import Mapping from './mapping/Mapping';
 import Mappings from './mapping/Mappings';
 import PageNotFound from './mapping/PageNotFound';
+import TestMapp from './mapping/TestMapp';
+import TestMapping from './mapping/TestMapping';
+import AllProduct from './project/AllProduct';
+import WishList from './project/WishList';
 
 
 function App() {
@@ -44,6 +48,10 @@ function App() {
       <Route path="/user/:userdetails" element = { <User /> } />
       <Route path="/mapping" element = { <Mapping students={["Thor", "Thorfinn", "Thorgill"]} />}/>
       <Route path='/mappings' element = { <Mappings teama = {["Hisako", "Yukihira", "Erina"]} />} />
+      <Route path='/test-mapp' element = { <TestMapp numbers = {["One", "Two", "three"]} />} />
+      <Route path='/test-mapping' element = { <TestMapping testing = {["Finn", "Ginn"]} />} />
+      <Route path="/all-product" element = { <AllProduct />}/>
+      <Route path="/wish-list" element = { <WishList />}/>
 
     </Routes>
   );

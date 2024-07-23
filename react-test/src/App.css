@@ -61,9 +61,43 @@ button{
 button:hover{
   background-color: black;
 }
+#btn{
+  padding: 8px 20px;
+  background-color: black;
+  border: 1px solid lightgrey;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  color: white;
+  cursor: pointer;
+}
+#btn:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid lightgrey;
+}
 
-.image{
-  background-image: url("https://blog.thomasnet.com/hubfs/shutterstock_774749455.jpg");
-  /* background-size: "cover"; */
-  background-repeat: "no-repeat";
+
+.image{ 
+  background-image: url(
+    "./images/404.png"
+        );
+        /* background-image: url("https://as1.ftcdn.net/v2/jpg/02/61/29/12/1000_F_261291226_2mTcIIpjRYh1NizN19eJGhN5BCO811it.jpg"); */
+        background-size: "cover";
+        height: 100vh;
+        /* width: 100vh; */
+        /* margin-top: -70px; */
+        /* font-size: 50px; */
+        margin-left: 200px;
+        background-repeat: no-repeat;
+}
+
+.img{
+  width: 500px;
+  /* height: 500px; */
+}
+h4{
+  color: red;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
 }
