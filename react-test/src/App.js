@@ -24,6 +24,8 @@ import TestMapp from './mapping/TestMapp';
 import TestMapping from './mapping/TestMapping';
 import AllProduct from './project/AllProduct';
 import WishList from './project/WishList';
+import FunctionProp from './leture28/FunctionProp';
+import FunctionalCounter from './leture28/FunctionalCounter';
 
 
 function App() {
@@ -52,6 +54,8 @@ function App() {
       <Route path='/test-mapping' element = { <TestMapping testing = {["Finn", "Ginn"]} />} />
       <Route path="/all-product" element = { <AllProduct />}/>
       <Route path="/wish-list" element = { <WishList />}/>
+      <Route path="/function-prop" element = { <FunctionProp />}/>
+      <Route path="/functional-counter" element = { <FunctionalCounter />}/>
 
     </Routes>
   );
