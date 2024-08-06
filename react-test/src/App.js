@@ -26,6 +26,8 @@ import AllProduct from './project/AllProduct';
 import WishList from './project/WishList';
 import FunctionProp from './leture28/FunctionProp';
 import FunctionalCounter from './leture28/FunctionalCounter';
+import StyledComponents from './stylecomponents/StyledComponents';
+import InlineStyling from './stylecomponents/InlineStyling';
 
 
 function App() {
@@ -56,6 +58,8 @@ function App() {
       <Route path="/wish-list" element = { <WishList />}/>
       <Route path="/function-prop" element = { <FunctionProp />}/>
       <Route path="/functional-counter" element = { <FunctionalCounter />}/>
+      <Route path="/styled-components" element = { <StyledComponents />}/>
+      <Route path="/inline-style" element = { <InlineStyling/>}/>
 
     </Routes>
   );
